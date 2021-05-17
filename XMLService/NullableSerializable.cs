@@ -2,7 +2,7 @@
 using System.Xml.Schema;
 using System.Xml.Serialization;
 
-namespace Eservices.XMLService
+namespace XMLService
 {
     public class NullableSerializable : IXmlSerializable
     {

@@ -8,7 +8,7 @@ using System.Web;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace Eservices.XMLService
+namespace XMLService
 {
     public class XmlHelper
     {
@@ -59,7 +59,7 @@ namespace Eservices.XMLService
         public static T XmlStringToObject<T>(string xml) where T : class
         {
 
-            
+
             using (var reader = new StringReader(xml))
             {
                 var serializer = new XmlSerializer(typeof(T));

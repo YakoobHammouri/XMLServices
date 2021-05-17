@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Web;
 
-namespace Eservices.XMLService
+namespace XMLService
 {
     public class EncodingWriter : StringWriter
     {
