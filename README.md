@@ -3,3 +3,9 @@
 
 ## How it Work 
 
+```
+ To Convert Model to Xml using  XmlHelper.ObjectToXmlString(model)
+```
+```
+ To Convert Xml to Model using  XmlHelper.XmlStringToObject<Model>(xmlText);
+```
